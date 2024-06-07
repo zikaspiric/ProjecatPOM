@@ -17,6 +17,9 @@ public class LoginTests extends BaseTest {
     public void userCanLogin(){
         sidebarPage.clickOnPracticeButton();
         practicePage.clickOnGoToLogInPage();
+        loginPage.inpuUserName();
+        loginPage.inputPassword();
+        loginPage.clickSubmitButton();
 
 
 
