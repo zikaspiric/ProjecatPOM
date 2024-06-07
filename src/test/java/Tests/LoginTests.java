@@ -19,5 +19,6 @@ public class LoginTests extends BaseTest {
         practicePage.clickOnGoToLogInPage();
 
 
+
     }
 }
